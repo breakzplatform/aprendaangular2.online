@@ -7,7 +7,7 @@ tweet: "Utilizando seus próprios eventos loucos usando Outputs no Angular 2"
 
 _Atualizado em 16 de Julho de 2016_
 
-Se você deseja vincular um determinado evento, você pode usar o novo [Event sintax](/events) no angular 2, mas e se você precisar de um evento personalizado?
+Se você deseja vincular um determinado evento, você pode usar o novo [Event sintax]({{ site.baseurl }}/events) no angular 2, mas e se você precisar de um evento personalizado?
 
 Para criar um evento personalizado (custom event), podemos usar o novo decorator `@Output`. Vamos pegar o exemplo do seguinte componente:
 

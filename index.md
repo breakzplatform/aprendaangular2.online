@@ -3,7 +3,7 @@ layout: default
 title: Aprenda Angular 2
 ---
 
-![Angular2](https://angular.io/resources/images/logos/standard/shield-large.png)
+![Angular2]({{ site.baseurl }}/images/shield-large.png)
 
 
 O Angular 2 é a ultima versão versão do framework criado pela Google. Ele é utilizado massivamente para apicações MV*, permitindo a criação de frontends complexos e aplicações parrudas que rodam direto do navegador (ou seja, praticamente qualquer coisa). No dia 14/09, a versão final foi oficialmente lançada:

@@ -3,7 +3,7 @@ layout: default
 title: "Porquê Angular 2"
 ---
 
-![Angular2](https://angular.io/resources/images/logos/standard/shield-large.png)
+![Angular2]({{ site.baseurl }}/images/shield-large.png)
 
 Angular 2 é a próxima versão de um dos frameworks MV* mais populares da atualidade do Google para a construção de webApps (e muito mais que só web).
 

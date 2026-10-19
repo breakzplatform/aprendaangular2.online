@@ -3,5 +3,6 @@ kramdown:
   input: GFM
 highlighter: rouge
 angular2_version: 2.0.0
-url: "http://aprendaangular2.online" # the base hostname & protocol for your site
+url: "https://breakzplatform.github.io"
+baseurl: "/aprendaangular2.online"
 author: "Will Mendes & Joselito Júnior"

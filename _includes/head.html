@@ -5,7 +5,7 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <link rel="icon" type="image/png" href="http://angular.io/resources/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon-16x16.png" sizes="16x16">
 
   <title>
     {{ page.title }} &middot; Aprenda Angular 2
@@ -14,16 +14,16 @@
   {% if page.title %}
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
     <meta property="og:description" content="{{page.tweet }}" />
     <meta property="article:author" content="{{ site.author }}" />
     <meta property="og:site_name" content="{{ page.title }} &middot; Aprenda Angular 2" />
-    <meta property="og:image" content="http://aprendaangular2.online/og-image.jpg" />
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/og-image.jpg" />
   {% endif %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/skeleton.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/skeleton.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 </head>
